@@ -1,0 +1,112 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/interface/IMars.sol\":\"IMars\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":hardhat/=node_modules/hardhat/\"]},\"sources\":{\"contracts/interface/IMars.sol\":{\"keccak256\":\"0x823ab38278b00851c2b42222a1d37de97c576903b22bc083dfc6ea44b54949be\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c74d07a5e1af907c7daa3fd252e0b771f43bd5c1f2b6ec215b2f0932c509e8d9\",\"dweb:/ipfs/QmaoxndXnBLG39ovMPcRxuj1LQ93MPWEXDALfnDGeNZ31k\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        "hardhat/=node_modules/hardhat/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/interface/IMars.sol": "IMars"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/interface/IMars.sol": {
+        "keccak256": "0x823ab38278b00851c2b42222a1d37de97c576903b22bc083dfc6ea44b54949be",
+        "urls": [
+          "bzz-raw://c74d07a5e1af907c7daa3fd252e0b771f43bd5c1f2b6ec215b2f0932c509e8d9",
+          "dweb:/ipfs/QmaoxndXnBLG39ovMPcRxuj1LQ93MPWEXDALfnDGeNZ31k"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/interface/IMars.sol",
+    "id": 6,
+    "exportedSymbols": {
+      "IMars": [
+        5
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:52:1",
+    "nodes": [
+      {
+        "id": 4,
+        "nodeType": "PragmaDirective",
+        "src": "33:31:1",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ]
+      },
+      {
+        "id": 5,
+        "nodeType": "ContractDefinition",
+        "src": "66:18:1",
+        "nodes": [],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IMars",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "IMars",
+        "nameLocation": "76:5:1",
+        "scope": 6,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 1
+}
